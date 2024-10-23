@@ -15,6 +15,12 @@
             border-radius: 10px;
             background-color: whitesmoke;
         }
+
+        .content{
+            display: grid;
+            justify-content: center;
+            
+        }
     </style>
 </head>
 <body>
@@ -22,20 +28,22 @@
         <div>
             <img class="mx-auto d-block" src="image/facebook-circle-logo-png.png" alt="Facebooklogo" width="20%">
         </div>
-        <div class="border p-sm-4 m-sm-3 mx-auto shadow p-4 mb-4 bg-white">
-            <p class="text-center font-weight-bold">See more on Facebook</p>
-            <form action="">
-                <div class="form-group">
-                    <input type="email" class="form-control text-center" placeholder="Email Address or Phone number" id="email">
-                </div>
-                <div class="form-group">
-                    <input type="password" class="form-control text-center" placeholder="Input password" id="pwd">
-                </div>
-                <button type="button" class="btn btn-primary btn-block"><a href="#" class="text-light text-decoration-none">Log in</a></button>
-                <hr>
-                <p class="text-center">or</p>
-                <button class="btn btn-success btn-block"><a href="newaccount.html" class="text-light text-decoration-none">Create a new Account</a></button>
-            </form>
+        <div class="content w-75%">
+            <div class="border p-sm-4 m-sm-3 shadow p-4 mb-4 bg-white">
+                <p class="text-center font-weight-bold">See more on Facebook</p>
+                <form action="">
+                    <div class="form-group">
+                        <input type="email" class="form-control text-center" placeholder="Email Address or Phone number" id="email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control text-center" placeholder="Input password" id="pwd">
+                    </div>
+                    <button type="button" class="btn btn-primary btn-block"><a href="#" class="text-light text-decoration-none">Log in</a></button>
+                    <hr>
+                    <p class="text-center">or</p>
+                    <button class="btn btn-success btn-block"><a href="newaccount.html" class="text-light text-decoration-none">Create a new Account</a></button>
+                </form>
+        </div>
     </div>
 </body>
 </html>
