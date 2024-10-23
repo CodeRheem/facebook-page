@@ -1,0 +1,13 @@
+.border{
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.fbk_box{
+    width: 400px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
