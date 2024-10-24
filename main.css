@@ -7,7 +7,41 @@
     width: 400px;
 }
 
+.fbk_box1{
+    max-width: 500px;
+}
+
 .content{
     display: flex;
     justify-content: center;
+}
+
+.text-primary{
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.rule{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    gap: 1.5px;
+}
+
+.divide1{
+    display: flex;
+    margin-top: 1rem;
+    border-top: 1px solid grey;
+    width: 50%;
+}
+
+.divide2{
+    display: flex;
+    margin-top: 1rem;
+    border-top: 1px solid grey;
+    width: 50%;
+}
+
+.row{
+    gap: 10px;
 }
