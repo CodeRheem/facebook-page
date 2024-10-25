@@ -45,3 +45,11 @@
 .row{
     gap: 10px;
 }
+
+.gap{
+    gap: 10px;
+    display: flex;
+    width: 423px;
+}
+
+

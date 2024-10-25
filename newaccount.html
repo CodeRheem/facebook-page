@@ -30,8 +30,8 @@
                         </div>
                         <div>
                             <h6 class="small">Date of birth ?</h6>
-                            <div class="d-flex">
-                                <select name="day" id="day" class="p-sm-1 form-control w-50">
+                            <div class="d-flex gap">
+                                <select name="day" id="day" class="p-sm-1 form-control w-100">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
@@ -64,7 +64,7 @@
                                     <option value="30">30</option>
                                     <option value="31">31</option>
                                 </select>
-                                <select name="month" id="month" class="form-control w-50">
+                                <select name="month" id="month" class="form-control w-100">
                                     <option value="jan">Jan</option>
                                     <option value="feb">Feb</option>
                                     <option value="mar">Mar</option>
@@ -78,12 +78,35 @@
                                     <option value="nov">Nov</option>
                                     <option value="dec">Dec</option>
                                 </select>
-                                <select name="year" id="year" class="form-control w-50">
+                                <select name="year" id="year" class="form-control w-100">
                                     <option value="2021">2021</option>
                                     <option value="2022">2022</option>
                                     <option value="2023">2023</option>
                                     <option value="2024" selected>2024</option>
                                 </select>
+                            </div>
+                        </div>
+                        <div>
+                            <h6 class="small">Gender ?</h6>
+                            <div class="d-flex gap">
+                                <div class="form-check radio form-control">
+                                    <label for="" class="form-chech-label w-100">
+                                        Female
+                                        <input type="radio" class="form-check-input" name="optradio">
+                                    </label>
+                                </div>
+                                <div>
+                                    <label for="" class="form-check-label radio form-control w-100">
+                                        Male
+                                        <input type="radio" class="form-check-input" name="optradio">
+                                    </label>
+                                </div>
+                                <div>
+                                    <label for="" class="form-check-label radio form-control w-100">
+                                        Custom
+                                        <input type="radio" class="form-check-input" name="optradio">
+                                    </label>
+                                </div>
                             </div>
                         </div>
                 </form>
