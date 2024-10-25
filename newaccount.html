@@ -20,16 +20,18 @@
             <div class="fbk_box1 border p-sm-5 mx-auto shadow p-4 mb-4 bg-white">
                 <p class="font-weight-bolder pone text-center mt-sm-n5 text-nowrap">Create a new account</p>
                 <p class="text-center mt-sm-n3 text-muted">It's quick and easy</p>
-                <hr class="w-100%">
-                <form action="" class="form-inline d-flex row">
-                        <div>
-                            <input type="text" id="text" placeholder="First name" class="form-control">
+                <hr>
+                    <form action="">
+                        <div class="d-flex row">
+                            <div>
+                                <input type="text" id="text" placeholder="First name" class="form-control">
+                            </div>
+                            <div>
+                                <input type="text" id="text" class="form-control" placeholder="Surname">
+                            </div>
                         </div>
-                        <div>
-                            <input type="text" id="text" class="form-control" placeholder="Surname">
-                        </div>
-                        <div>
-                            <h6 class="small">Date of birth ?</h6>
+                        <div class="d-flex row">
+                            <h6 class="small mt-sm-2">Date of birth ?</h6>
                             <div class="d-flex gap">
                                 <select name="day" id="day" class="p-sm-1 form-control w-100">
                                     <option value="1">1</option>
@@ -86,11 +88,11 @@
                                 </select>
                             </div>
                         </div>
-                        <div>
-                            <h6 class="small">Gender ?</h6>
+                        <div class="d-flex row">
+                            <h6 class="small mt-sm-2">Gender ?</h6>
                             <div class="d-flex gap">
                                 <div class="form-check radio form-control">
-                                    <label for="" class="form-chech-label w-100">
+                                    <label for="" class="form-chech-label">
                                         Female
                                         <input type="radio" class="form-check-input" name="optradio">
                                     </label>
@@ -109,7 +111,19 @@
                                 </div>
                             </div>
                         </div>
-                </form>
+                        <div class="d-flex row mt-sm-2">
+                            <input type="alphanumeric" name="" class="form-control d-block mobile" placeholder="Mobil number or Email Address">
+                            <input type="pwd" name="pwd" class="form-control " placeholder="New Password">
+                        </div>
+                        <div>
+                            <p class="small text-muted mt-sm-2 ml-sm-n3">People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more.</a></p>
+                            <p class="small text-muted ml-sm-n3 mt-sm-n2">By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a> . You may receive SMS notifications from us and can opt out at any time.</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-success d-flex mx-auto w-50" type="button"><span class="ml-sm-5">Sign Up</span></button>
+                            <p class="mt-sm-2 text-center"><a href="login.html">Already have an account?</a></p>
+                        </div>
+                    </form>
             </div>
         </div>
     </div>

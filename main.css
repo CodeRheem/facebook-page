@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .border{
     border-radius: 10px;
     background-color: whitesmoke;
@@ -48,8 +54,19 @@
 
 .gap{
     gap: 10px;
-    display: flex;
-    width: 423px;
+    width: 425px;
 }
+
+.top{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.gender{
+    gap: 5px;
+    display: flex;
+    width: 400px;
+}
+
 
 
